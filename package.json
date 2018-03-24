@@ -13,6 +13,7 @@
   },
   "author": "Ramón Guijarro <hola@soyguijarro.com>",
   "license": "MIT",
+  "repository": "https://github.com/soyguijarro/gesnext-payslip-cli",
   "engines": {
     "node": ">=8.10.0"
   },
@@ -40,14 +41,9 @@
       "ecmaVersion": 2018
     },
     "extends": "eslint:recommended",
-    "plugins": [
-      "json"
-    ],
+    "plugins": ["json"],
     "rules": {
-      "semi": [
-        "error",
-        "always"
-      ]
+      "semi": ["error", "always"]
     }
   },
   "prettier": {
@@ -55,10 +51,6 @@
     "trailingComma": "es5"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "eslint --fix",
-      "prettier",
-      "git add"
-    ]
+    "*.{js,json}": ["eslint --fix", "prettier", "git add"]
   }
 }
