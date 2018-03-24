@@ -19,7 +19,7 @@ Usage: payslip [options]
 
 Options:
 
-  -d, --domain <url>         URL of the portal
+  -h, --host <url>           URL of the portal
   -u, --user <user>          User
   -p, --password <password>  Password
   -m, --months [number]      Months back (defaults to last payslip)
