@@ -1,6 +1,6 @@
 {
   "name": "gesnext-payslip-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to download payslips from GesNext employee portal",
   "main": "bin/index.js",
   "bin": {
@@ -41,9 +41,14 @@
       "ecmaVersion": 2018
     },
     "extends": "eslint:recommended",
-    "plugins": ["json"],
+    "plugins": [
+      "json"
+    ],
     "rules": {
-      "semi": ["error", "always"]
+      "semi": [
+        "error",
+        "always"
+      ]
     }
   },
   "prettier": {
@@ -51,6 +56,10 @@
     "trailingComma": "es5"
   },
   "lint-staged": {
-    "*.{js,json}": ["eslint --fix", "prettier", "git add"]
+    "*.{js,json}": [
+      "eslint --fix",
+      "prettier",
+      "git add"
+    ]
   }
 }
