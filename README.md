@@ -1,3 +1,5 @@
+> :warning: **This tool is no longer maintained**
+
 # GesNext Payslip CLI
 
 GesNext Payslip CLI is a command line tool written in Node to download payslips from the [GesNext](http://www.gesnext.com) employee portal. The portal is an old, slow and not-so-nice website used by [Telefónica](https://www.telefonica.com) and presumably other companies mainly to allow employees to download their payslips in PDF format. Thanks to this tool you might never have to look at it again.
